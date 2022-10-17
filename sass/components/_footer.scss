@@ -1,0 +1,169 @@
+.footer{
+    background: $color-footer;
+    padding: 60px 0;
+    text-align: left;
+}
+.adress__contact__footer{
+  margin-top: 20px;
+}
+.address__tel-emal{
+  font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+  transition-property:color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+
+    &:hover,
+    &:focus {
+    color: $text-accent}
+}
+
+.address__office{
+color: $text-white;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+transition-property:color;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+
+    &:hover,
+    &:focus {
+    color: $text-accent}
+}
+
+.adress__list {
+margin-bottom: 9px;
+width: 231px;
+height: 21px;
+
+
+    &:last-child {
+    margin-bottom: 0;}
+}
+
+.footer-flex{
+display: flex;
+}
+
+.join__footer{
+  margin-left: 70px;
+  padding-top: 12px;
+  width: 206px;
+  height: 80px;
+}
+.join__word{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: $text-white;
+
+}
+
+.join__list{
+  width: 206px;
+  height: 44px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+}
+.join__iteam{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.join__link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color:$text-white;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  
+      &:hover,
+      &:focus {
+      background-color: $text-accent;
+      }     
+              &:hover .icon__join,
+              &:focus .icon__join {
+              background-color: $text-accent;}
+}
+
+.icon__join {
+  fill: currentColor;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  }
+
+
+.e-mail__footer{
+width: 570px;
+height: 86px;
+margin-left: 93px;
+margin-top: 12px;
+}
+.e-mail__box{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 12px;
+}
+.e-mail__box input{
+padding: 15px 16px;
+width: 358px;
+background-color: transparent;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button__footer{
+width: 200px;
+background:$text-accent;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+
+font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+  color: $text-white;
+
+  border: 0;
+  padding: 10px;
+  gap: 10px;
+}
+
+.e-mail__icon-join{
+  fill: $text-white;
+}

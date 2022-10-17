@@ -1,0 +1,98 @@
+.team {
+    background: #F5F4FA;
+    padding: 94px 0;
+}
+
+.team__list {
+    margin-top: 50px;
+    color: $text-dark;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__iteam {
+    width: 270px;
+    margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    background-color: $text-white;
+
+
+    &:last-child {
+    margin-right: 0;}
+}
+
+.team__name-worker {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: $text-dark;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team__job {
+    color: $main-text;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    margin: top 10px;
+    margin-bottom: 16px;
+}
+
+
+.team__icon-list {
+    margin-bottom: 30px;
+    width: 206px;
+    height: 44px;
+    margin-left: 32px;
+    margin-right: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-list__iteam {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.icon-list__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: transparent;
+    fill: #AFB1B8;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+
+
+
+        &:hover,
+        &:focus {
+        background-color: $text-accent;}
+
+                &:hover .icon-list__icon,
+                &:focus .icon-list__icon {
+                fill: $text-white;}
+}
+
+.icon-list__icon {
+    transition-property: fill;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
