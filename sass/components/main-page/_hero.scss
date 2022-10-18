@@ -158,7 +158,7 @@ align-items: center;
     color: $main-text;
 }
 
-.form__field__name {
+.form__field-name {
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
@@ -166,11 +166,11 @@ align-items: center;
     margin-bottom: 4px;
 }
 
-.form__field__input {
+.form__field-input {
     position: relative;
 }
 
-.form__field__input input {
+.form__field-input input {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -183,13 +183,13 @@ align-items: center;
     outline: transparent;
 }
 
-.form__field__input input:focus,
-.form__field__input input:checked,
-.form__field__input input:hover {
+.form__field-input input:focus,
+.form__field-input input:checked,
+.form__field-input input:hover {
     border: 1px solid $text-accent;
 }
 
-.form__field__icon {
+.form__field-icon {
     position: absolute;
     left: 12px;
     top: 11px;
@@ -198,13 +198,13 @@ align-items: center;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form__field__input:focus-within .form__field__icon,
-.form__field__input:checked .form__field__icon,
-.form__field__input:hover .form__field__icon {
+.form__field-input:focus-within .form__field-icon,
+.form__field-input:checked .form__field-icon,
+.form__field-input:hover .form__field-icon {
     fill: $text-accent;
 }
 
-.form__field__textarea {
+.form__field-textarea {
     padding: 12px 16px;
     height: 120px;
     width: 100%;
@@ -218,12 +218,12 @@ align-items: center;
     resize: none;
 }
 
-.form__field__textarea:focus,
-.fform__field__textarea:checked,
-.form__field__textarea:hover {
+.form__field-textarea:focus,
+.fform__field-textarea:checked,
+.form__field-textarea:hover {
     border: 1px solid $text-accent;
 }
-.form__field__textarea-content{
+.form__field-content{
 width: 416px;
 height: 96px;
 outline: transparent;
@@ -247,7 +247,7 @@ border: 0;
     clip: rect(0 0 0 0);
 }
 
-.form__field__icon-check {
+.form__field-check {
     margin-right: 7px;
     border-radius: 3px;
     border: 2px solid $text-dark;
@@ -257,7 +257,7 @@ border: 0;
     height: 15px;
 }
 
-.form__field__checkbox {
+.form__field-checkbox {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -271,26 +271,26 @@ border: 0;
     overflow: hidden;
 }
 
-input:checked + .form__field__icon-check {
+input:checked + .form__field-check {
     border: 1px solid transparent;
     background-color: $text-accent;
     fill: $text-white;
 }
 
-.form__field__agreement-text {
+.form__field-text {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: $main-text;
 }
 
-.form__field__condition {
+.form__field-condition {
     color: $text-accent;
     text-decoration: none;
     border-bottom: 1px $text-accent solid;
 }
 
-.form__field__button {
+.form__field-button {
     margin-top: 30px;
     background-color: $text-accent;
     color: $text-white;

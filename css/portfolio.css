@@ -137,11 +137,11 @@ a {
   color: #2196F3;
 }
 
-.nav-site__link__after {
+.nav-site__link--after {
   position: relative;
 }
 
-.nav-site__link__after::after {
+.nav-site__link--after::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -156,7 +156,7 @@ a {
   transition-duration: 250ms;
 }
 
-.nav-site__link__after.current::after {
+.nav-site__link--after.current::after {
   background-color: #2196F3;
 }
 
@@ -212,7 +212,7 @@ a {
   text-align: left;
 }
 
-.adress__contact__footer {
+.adress__contact-footer {
   margin-top: 20px;
 }
 
